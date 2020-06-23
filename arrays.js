@@ -42,6 +42,6 @@ function removeElementFromEndOfArray(arr){
   return arr.slice(0,arr.length -1);
 }
 
-function accessElementInArray(arr){
-
+function accessElementInArray(arr,idx){
+  return arr[idx];
 }
